@@ -1,0 +1,96 @@
+@media(max-width:480px){
+.Menu a{}
+.listmenu {
+width: 100%;
+height: 100px;
+text-align: center;
+padding-top: 5px;
+}
+.Menu {
+    height: 120px;
+    text-align: center;
+    }
+ .Menu img{
+width: 40%;
+padding-top: 5px
+ }
+.Head img:nth-child(1){
+    width: 190px;
+    top: -10px;
+    left: -10px;
+    animation-name: move1;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+   
+}
+.Head img:nth-child(2){
+    width: 300px;
+    top: -10px;
+    right: -105px;
+    animation-name: move3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+}
+.Head img:nth-child(3){
+    bottom: -70px;
+    right: -80px;
+    width:300px;
+    animation-name: move5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+.Head img:nth-child(4){
+    width: 280px;
+    bottom: -10px;
+    right: -90px;
+    animation-name: move2;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+   
+}
+.Head img:nth-child(5){
+  display: none;
+}
+.Head img:nth-child(6){
+    display: none;
+  }
+@keyframes move1{
+    0%{transform: translate(0,0);}
+    50%{transform: translate(60px,25px);}
+    100%{transform: translate(0,0);}
+}
+@keyframes move3{
+    0%{transform: scaleX(0,0);}
+    50%{transform: scaleX(-1) ;}
+    100%{transform:scaleX(0,0) ;}
+}
+@keyframes move5{
+    0%{transform: scaleY(0,0);}
+    50%{transform: scaleY(1.4) ;}
+    100%{transform:scaleY(0,0) ;}
+}
+@keyframes move2{
+    0%{transform: rotate(0,0);}
+    50%{transform: rotate(720deg);}
+    100%{transform: rotate(0,0);}
+}
+.Whatwedo img{
+    display: none;
+}
+.WhatwedoText{
+    width: 95%;
+ }
+ .Servicesitems{
+ margin: 20px 0;
+    }
+    .Featurescard{
+     margin: 30px 0;
+     width: 98%;
+    }
+    .Ourworks img{
+      width: 98%;
+      margin: 15px 0;
+    }
+}

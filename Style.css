@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+*{padding: 0; margin: 0; box-sizing: border-box;font-family: 'Rubik', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;}
+.Menu{
+    background-color: black;
+    height:80px;
+    
+}
+.Menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    font-size: 24px;
+}
+.Menu img{
+    width: 19%;
+}
+.listmenu{
+    width: 80%;
+    display: inline-block;
+    text-align: right;
+    height: 80px;
+    vertical-align: top;
+    padding-top: 25px;
+}
+.Services h3{
+font-size: 25px;
+}
+.Servicesitems{
+background-color: rgb(255, 255, 255);
+width: 250px;
+border-radius: 15px;
+border: 4px solid rgb(255, 199, 96);
+height: 325px;
+display: inline-block;
+text-align: center;
+padding: 10px;
+}
+.Services img{
+    width: 150px;
+}
+.Services hr{
+    width: 120px;
+    border:1px solid orange;
+    margin: 10px auto
+}
+.Services p{
+    font-size: 20px;
+}
+.Container{
+    width: 90%;
+    margin:auto 
+}
+.Services{
+text-align: center;
+padding: 50px 0;
+background: rgb(255,111,0);
+background: linear-gradient(170deg, rgba(255,111,0,1) 0%, rgba(255,158,0,1) 43%, rgba(255,255,255,1) 65%);
+}
+.Aboutus{
+text-align: center;
+padding: 70px 0;
+}
+h2{
+text-align: center;
+margin-bottom: 25px;
+font-size: 30px;
+}
+.WhatwedoText{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+    }
+.Whatwedo img{
+width: 50%;
+ }
+.Aboutus p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+.WhatwedoText p{
+width: 80%;
+margin: auto;
+font-size: 20px;
+background-color: rgb(255, 255, 255);
+border-radius: 30px;
+padding: 15px;
+box-shadow: 10px 10px 0 rgb(248, 187, 54);
+  }
+.Whatwedo{
+    padding: 70px 0;
+    background: rgb(255,111,0);
+    background: linear-gradient(9deg, rgba(255,111,0,1) 0%, rgba(255,158,0,1) 43%, rgba(255,255,255,1) 65%);
+}
+.Featurescard{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 10px 10px 0 rgb(248, 187, 54);
+    border: 4px solid rgb(255, 123, 0);
+    margin: 30px 0;
+    width: 60%;
+    margin-left: 150px;
+}
+.Featurescard ul{
+    list-style: circle;
+    padding-left: 20px;
+    margin: 10px;
+}
+.Fc2{
+    margin-left: 350px;
+}
+.Ourworks img{
+    width: 49%;
+    border-radius: 50px;
+    border: 4px solid orange;
+}
+.Contact{
+    background: linear-gradient(180deg, rgba(255,111,0,1) 0%, rgba(255,158,0,1) 50%, rgba(255,255,255,1) 100%);
+    padding: 70px 0;
+}
+.Contact button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    box-shadow: 8px 7px 0 rgb(255, 115, 0);
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.Ourworks{
+    padding: 70px 0;
+}
+.Head{
+    background: linear-gradient(180deg, rgba(255,155,78,1) 0%, rgba(255,190,78,1) 50%, rgba(255,255,255,1) 100%);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.Head img:nth-child(1){
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    width: 350px;
+    animation-name: move1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.Head img:nth-child(2){
+    position: absolute;
+    top: -70px;
+    right: -80px;
+    width: 350px;
+    animation-name: move3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.Head img:nth-child(3){
+    position: absolute;
+    bottom: -70px;
+    left: -80px;
+    width: 350px;
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.Head img:nth-child(4){
+    position: absolute;
+    bottom: -70px;
+    right: -80px;
+    width: 400px;
+    animation-name: move2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.Head img:nth-child(5){
+    position: absolute;
+    bottom: 100px;
+    left: 550px;
+    width: 200px;
+    animation-name: move6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.Head img:nth-child(6){
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    width: 150px;
+    animation-name: move5;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move1{
+    0%{transform: translate(0,0);}
+    50%{transform: translate(150px,50px);}
+    100%{transform: translate(0,0);}
+}
+@keyframes move2{
+     0%{transform: rotate(0,0);}
+     50%{transform: rotate(720deg);}
+     100%{transform: rotate(0,0);}
+}
+@keyframes move3{
+    0%{transform: scaleX(0,0);}
+    50%{transform: scaleX(-1) ;}
+    100%{transform:scaleX(0,0) ;}
+}
+@keyframes move4{
+    0%{transform: skewX(0,0);}
+    50%{transform:  skewX(20deg);}
+    100%{transform: skewX(0,0);}
+}
+@keyframes move5{
+    0%{transform: scaleY(0,0);}
+    50%{transform: scaleY(1.4) ;}
+    100%{transform:scaleY(0,0) ;}
+}
+@keyframes move6{
+    0%{transform: skewY(0,0);}
+    50%{transform:  skewY(-20deg);}
+    100%{transform: skewY(0,0);}
+}
+.headtext{
+    text-align: center;
+    transform: translateY(-50%);
+    position: relative;
+    top: 45%;
+    z-index: 1;
+}
+.headtext h1 {
+   text-shadow: 5px 5px 0 rgb(221, 144, 1);
+   color: white;
+   font-size: 80px;
+}
+.headtext button {
+border-radius: 30px;
+border: none;
+box-shadow: 5px 5px 0 rgb(221, 144, 1);
+width: 150px;
+height: 40px;
+font-size: 24px;
+font-weight: bold;
+ }
+  
